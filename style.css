@@ -12,7 +12,6 @@ body {
     line-height: 1.7;
 }
 
-/* ===== NAVBAR ===== */
 .navbar {
     position: sticky;
     top: 0;
@@ -150,7 +149,6 @@ body {
     border-bottom: 2px solid #4fc3f755;
 }
 
-/* ===== HABILIDADES ===== */
 .skills {
     display: flex;
     flex-wrap: wrap;
@@ -345,7 +343,6 @@ body {
     text-decoration: underline;
 }
 
-/* ===== FOOTER ===== */
 footer {
     text-align: center;
     padding: 30px;
@@ -353,7 +350,45 @@ footer {
     font-size: 0.85rem;
 }
 
-/* ===== RESPONSIVO ===== */
+#btn-topo {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #4fc3f7;
+    color: #111;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s, background 0.2s;
+}
+
+#btn-topo.visivel {
+    opacity: 1;
+    visibility: visible;
+}
+
+#btn-topo:hover {
+    background: #81d4fa;
+}
+
+#msg-copiado {
+    font-size: 0.8rem;
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 0.3s;
+    margin-top: 5px;
+}
+
+#msg-copiado.visivel {
+    opacity: 1;
+}
+
 @media (max-width: 600px) {
     .navbar {
         padding: 14px 20px;

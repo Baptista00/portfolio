@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio — Lucas Schwarz Baptista</title>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
@@ -24,6 +25,7 @@
     <!-- ===== HERO ===== -->
     <header class="hero">
         <img class="avatar" src="imagens/perfil.jpg" alt="Foto de perfil">
+        <h1><span id="saudacao"></span>, eu sou</h1>
         <h1>Lucas Schwarz Baptista</h1>
         <p class="role">Estudante de Sistemas de Informação | Focado em Engenharia de Software</p>
         <div class="hero-actions">
@@ -124,7 +126,7 @@
 
         <div class="contact-list">
 
-            <a class="contact-item" href="mailto:lucasbaptista2106@gmail.com">
+            <a class="contact-item" id="copiar-email" href="mailto:lucasbaptista2106@gmail.com">
                 <div class="contact-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#6c63ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                         <rect x="2" y="4" width="20" height="16" rx="2"/>
@@ -134,6 +136,7 @@
                 <div class="contact-info">
                     <span class="contact-label">Email:</span>
                     <span class="contact-value">lucasbaptista2106@gmail.com</span>
+                    <span id="msg-copiado">✓ Copiado!</span>
                 </div>
             </a>
 
@@ -154,8 +157,12 @@
     </section>
 
     <footer>
-        <p>&copy; 2026 Lucas Schwarz Baptista</p>
+        <p>&copy; <span id="ano"></span> Lucas Schwarz Baptista</p>
     </footer>
+
+    <button id="btn-topo" title="Voltar ao topo">↑</button>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
