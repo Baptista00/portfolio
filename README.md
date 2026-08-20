@@ -2,11 +2,11 @@
 
 Este repositório contém meu portfólio com projetos desenvolvidos durante meus estudos em **Sistemas de Informação**, com foco em **Engenharia de Software**.
 
-## 🚀 Sobre
+## Sobre
 
 Tenho experiência com **JavaScript, HTML e CSS**, desenvolvendo aplicações web com foco em lógica de programação, interatividade e boas práticas de desenvolvimento.
 
-## 💻 Projeto
+##  Projeto
 
 O portfólio apresenta alguns dos meus projetos práticos, demonstrando minha evolução e capacidade de construir soluções funcionais.
 
