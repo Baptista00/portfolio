@@ -33,7 +33,7 @@ if (navToggle && navLinks) {
 
     window.addEventListener('resize', () => {
         if (window.innerWidth > 980) {
-            setMenuState(false);
+            setMenuState(false); 
         }
     });
 }
