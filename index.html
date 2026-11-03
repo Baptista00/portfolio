@@ -27,7 +27,7 @@
             <ul class="nav-links" id="menu-principal">
                 <li><a href="#inicio">Início</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#subtrack">Projeto em destaque</a></li>
+                <li><a href="#subtrack">SubTrack</a></li>
                 <li><a href="#tecnologias">Tecnologias</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#formacao">Formação</a></li>
@@ -93,9 +93,10 @@
 
                         <p>O SubTrack é um aplicativo mobile desenvolvido para organizar assinaturas recorrentes, permitindo acompanhar gastos mensais e anuais, controlar renovações e receber lembretes antes das cobranças.</p>
                         <p>O projeto foi desenvolvido utilizando React Native (Expo), Supabase e PostgreSQL, contando com autenticação por e-mail, confirmação de cadastro, recuperação de senha, dashboard financeiro, notificações locais e persistência em nuvem.</p>
-                        <p>
+                        <div class="hero__actions" aria-label="Links do SubTrack">
                             <a class="button button--primary" href="https://subtrackbr.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Conhecer o projeto SubTrack (abre em nova aba)">Conhecer o projeto&nbsp;<span aria-hidden="true">↗</span></a>
-                        </p>
+                            <a class="button button--secondary" href="https://github.com/Baptista00/subtrack" target="_blank" rel="noopener noreferrer" aria-label="Ver código do SubTrack no GitHub (abre em nova aba)">Ver código&nbsp;<span aria-hidden="true">↗</span></a>
+                        </div>
 
                         <ul class="tag-list tag-list--feature" aria-label="Tecnologias do SubTrack">
                             <li>React Native</li>
@@ -195,7 +196,37 @@
             <div class="container">
                 <div class="section-heading section-heading--wide">
                     <h2 id="projetos-title">Projetos</h2>
-                    <p>Alguns projetos que desenvolvi durante meus estudos de JavaScript, HTML e CSS.</p>
+                    <p>Projetos que desenvolvi além do SubTrack, praticando JavaScript, HTML e CSS.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-card__header">
+                            <span class="project-number" aria-hidden="true">01</span>
+                            <h3>Lista de Compras</h3>
+                        </div>
+                        <p>Aplicação web de lista de compras feita com HTML, CSS e JavaScript, sem frameworks. Os itens ficam salvos no navegador com localStorage, as ações podem ser desfeitas e o uso é possível pelo teclado.</p>
+                        <ul class="tag-list tag-list--compact" aria-label="Tecnologias utilizadas na Lista de Compras">
+                            <li>JavaScript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>localStorage</li>
+                            <li>Acessibilidade</li>
+                        </ul>
+                        <div class="project-card__actions">
+                            <!-- TODO: adicionar link "Ver projeto" quando existir uma demo publicada da Lista de Compras. -->
+                            <a class="text-link" href="https://github.com/Baptista00/lista-compras" target="_blank" rel="noopener noreferrer">Ver código <span aria-hidden="true">↗</span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="estudos" aria-labelledby="estudos-title">
+            <div class="container">
+                <div class="section-heading section-heading--wide">
+                    <h2 id="estudos-title">Projetos de estudo</h2>
+                    <p>Projetos menores, feitos no início dos meus estudos para praticar lógica de programação e manipulação do DOM.</p>
                 </div>
 
                 <div class="projects-grid">
@@ -216,7 +247,6 @@
                             <a class="text-link" href="https://github.com/Baptista00/alugames" target="_blank" rel="noopener noreferrer">Ver código <span aria-hidden="true">↗</span></a>
                         </div>
                     </article>
-
                     <article class="project-card">
                         <div class="project-card__header">
                             <span class="project-number" aria-hidden="true">02</span>
