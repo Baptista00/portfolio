@@ -1,20 +1,21 @@
-# 👨‍💻 Lucas Baptista - Portfólio
+# Lucas Baptista - Portfólio
 
-Este repositório contém meu portfólio com projetos desenvolvidos durante meus estudos em **Sistemas de Informação**, com foco em **Engenharia de Software**.
+Portfólio de Lucas Schwarz Baptista, estudante de Sistemas de Informação (UNIFEBE) em busca de estágio em desenvolvimento de software, com interesse em IA.
 
-## Sobre
+## Conteúdo
 
-Tenho experiência com **JavaScript, HTML e CSS**, desenvolvendo aplicações web com foco em lógica de programação, interatividade e boas práticas de desenvolvimento.
+* **SubTrack**: app mobile de gestão de assinaturas (React Native, Expo, Supabase e PostgreSQL).
+* **Projetos**: Lista de Compras, feita com HTML, CSS e JavaScript sem frameworks.
+* **Projetos de estudo**: AluGames e Sistema de Ingressos.
+* **Experiência e formação**: Aprendiz de Infraestrutura de TI na Hiper Software e graduação em Sistemas de Informação.
 
-##  Projeto
+O site é estático (HTML, CSS e JavaScript), sem dependências.
 
-O portfólio apresenta alguns dos meus projetos práticos, demonstrando minha evolução e capacidade de construir soluções funcionais.
+## Acesse
 
-## 🌐 Acesse
+https://baptista00.github.io/portfolio/
 
-👉 https://baptista00.github.io/portfolio/
+## Contato
 
-## 📫 Contato
-
-* GitHub: https://github.com/baptista00
+* GitHub: https://github.com/Baptista00
 * LinkedIn: https://www.linkedin.com/in/lucas-schwarz-baptista/
