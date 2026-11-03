@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" width="300" height="600" role="img" aria-label="Espaço reservado para captura de tela 4 do SubTrack">
+  <rect width="300" height="600" rx="28" fill="#111a22"/>
+  <rect x="1" y="1" width="298" height="598" rx="27" fill="none" stroke="#3a5059" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="150" y="290" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#b4e1d2">Captura 4</text>
+  <text x="150" y="320" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#a9b8bd">Imagem em breve</text>
+</svg>

@@ -523,6 +523,35 @@ img {
     content: "";
 }
 
+.feature-project__gallery {
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.feature-project__gallery figure {
+    margin: 0;
+}
+
+.feature-project__gallery img {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--border);
+    border-radius: 1rem;
+    background: var(--surface-subtle);
+}
+
+.feature-project__gallery figcaption {
+    margin-top: 0.6rem;
+    color: var(--text-subtle);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
 .skills-layout {
     display: grid;
     grid-template-columns: minmax(0, 1.25fr) minmax(15rem, 0.75fr);
@@ -928,6 +957,10 @@ img {
 
     .feature-project__scope {
         padding: 1.15rem;
+    }
+
+    .feature-project__gallery {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .project-card {
