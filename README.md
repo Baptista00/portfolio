@@ -1,6 +1,6 @@
 # Lucas Baptista - Portfólio
 
-Portfólio de Lucas Schwarz Baptista, estudante de Sistemas de Informação (UNIFEBE) em busca de estágio em desenvolvimento de software, com interesse em IA.
+Portfólio de Lucas Schwarz Baptista, estudante de Sistemas de Informação (UNIFEBE) em busca de estágio em desenvolvimento de software.
 
 ## Conteúdo
 
